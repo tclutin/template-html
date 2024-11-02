@@ -4,3 +4,9 @@
     font-family: 'Clash Display';
     font-weight: 400;
 }
+
+@font-face {
+    src: url("../fonts/Satoshi-Variable.ttf");
+    font-family: 'Satoshi';
+    font-weight: 400;
+}

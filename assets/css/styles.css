@@ -1,0 +1,150 @@
+
+.header {
+    margin-left: 28px;
+    margin-right: 28px;
+}
+
+.header__top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #0000001A;
+}
+
+.header__logo {
+    font-family: "Clash Display", serif;
+    font-size: 24px;
+    line-height: 30px;
+}
+
+.header__personal {}
+
+.header__personal-cart {
+    margin-right: 16px;
+}
+
+.header__search-button {
+
+}
+
+.header__bottom {
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.header__nav {
+    display: flex;
+    gap: 44px;
+}
+
+.header__nav-item {
+    font-family: "Satoshi", serif;
+    font-size: 16px;
+    line-height: 21px;
+    color: #726E8D;
+}
+
+.header__nav-item:hover {
+    color: #2b00ff;
+}
+
+.container {
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+.view-collection {
+    margin-top: 40px;
+}
+
+.view-collection__content {
+    display: flex;
+    background-color: #2A254B;
+}
+
+.view-collection__left {
+    display: flex;
+    flex-direction: column;
+    gap: 196px;
+    padding: 60px;
+}
+
+.view-collection__title {
+    font-family: "Clash Display", serif;
+    font-size: 32px;
+    line-height: 44px;
+    color: #FFFFFF;
+}
+
+.view-collection__button {
+    width: 170px;
+    padding: 16px;
+    font-family: "Satoshi", serif;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+    background-color: #F9F9F926;
+}
+
+.view-collection__description {
+    font-family: "Satoshi", serif;
+    font-size: 18px;
+    line-height: 27px;
+    color: #FFFFFF;
+}
+
+.view-collection__main-information {
+    display: flex;
+    flex-direction: column;
+    gap: 41px;
+}
+
+.view-collection__right-image {
+    width: 990px;
+    height: 100%;
+}
+
+.view-collection__button:hover {
+    background-color: #8378c3;
+}
+
+.our-brand-different {
+    margin-top: 120px;
+    margin-bottom: 300px;
+}
+
+.out-brand-different__title {
+    font-family: "Clash Display", serif;
+    font-size: 24px;
+    line-height: 34px;
+    color: #2A254B;
+    text-align: center;
+}
+
+
+
+.out_brand-different__features {
+    display: flex;
+    gap: 80px;
+    margin-top: 51px;
+}
+
+.our-brand-different__feature-title {
+    margin-top: 16px;
+    font-family: "Clash Display", serif;
+    font-size: 20px;
+    line-height: 28px;
+    color: #2A254B;
+}
+
+.our-brand-different__feature-description {
+    margin-top: 8px;
+    font-family: "Satoshi", serif;
+    font-size: 16px;
+    line-height: 24px;
+    color: #2A254B;
+}
