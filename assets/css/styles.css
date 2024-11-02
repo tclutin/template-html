@@ -19,13 +19,7 @@
     line-height: 30px;
 }
 
-.header__personal {}
-
-.header__personal-cart {
-    margin-right: 16px;
-}
-
-.header__personal-search {
+.header__personal-cart, .header__personal-search  {
     margin-right: 16px;
 }
 
