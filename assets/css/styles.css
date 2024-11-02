@@ -146,3 +146,49 @@
     line-height: 24px;
     color: #2A254B;
 }
+
+@media (max-width: 1277px) {
+    .container {
+        max-width: 1277px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .view-collection__right-image {
+        display: none;
+    }
+
+    .view-collection__content {
+        display: flex;
+        flex-direction: column;
+    }
+
+}
+
+@media (max-width: 1024px) {
+    .container {
+        max-width: 1277px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .view-collection__content {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 425px) {
+    .container {
+        max-width: 425px;
+    }
+
+    .out_brand-different__features {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .header__bottom {
+        display: none;
+    }
+}
