@@ -25,8 +25,12 @@
     margin-right: 16px;
 }
 
-.header__search-button {
+.header__personal-search {
+    margin-right: 16px;
+}
 
+.header__personal-crutch {
+    visibility: hidden;
 }
 
 .header__bottom {
